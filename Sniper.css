@@ -81,12 +81,12 @@ a {
    color: gold;
   text-align: center;
 }
-.slark-button{
+.menu-button{
     display: inline-block;
   padding: 12px 30px;
   border: 1px solid #c23c2a;
   color: #c23c2a;
   font-weight: bold;
-  ackground-color: #c23c2a;
+  background-color: #c23c2a;
   color: #0b0e13;
 }

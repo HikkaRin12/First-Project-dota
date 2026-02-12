@@ -1,90 +1,80 @@
- * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    } 
- 
- 
- .hero-list {
-      list-style: none;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-    .hero-list li a {
-      display: block;
-      padding: 10px 15px;
-      color: #cfd8dc;
-      text-decoration: none;
-      border-bottom: 1px solid #0b1118;
-      transition: background 0.2s, color 0.2s;
-    }
+.hero-list {
+  list-style: none;
+}
 
-    .hero-list li a:hover {
-      background: #1f2d3a;
-      color: #ffffff;
-    }
+.hero-list li a {
+  display: block;
+  padding: 10px 15px;
+  color: #cfd8dc;
+  text-decoration: none;
+  border-bottom: 1px solid #0b1118;
+}
 
-    /* Основная область */
-    main {
-      flex: 1;
-      padding: 30px;
-      background: url('https://via.placeholder.com/1200x800/0f1720/1b2838') center/cover no-repeat;
-    }
+main {
+  flex: 1;
+  padding: 30px;
+  background-color: rgb(15, 15, 49);
+}
 
-    .content-box {
-      max-width: 600px;
-      background: rgba(10, 15, 20, 0.75);
-      padding: 25px;
-      border: 1px solid #000;
-    }
+.content-box {
+  max-width: 600px;
+  background: rgba(16, 21, 26, 0.75);
+  padding: 25px;
+  border: 1px solid #000;
+}
 
-    .content-box h2 {
-      margin-bottom: 15px;
-      color: #d4af37;
-    }
+.content-box h2 {
+  margin-bottom: 15px;
+  color: #d4af37;
+}
 
-    .content-box p {
-      line-height: 1.6;
-      color: #c0cbd4;
-    }
+.content-box p {
+  line-height: 1.6;
+  color: #c0cbd4;
+}
 
-    body {
-      height: 100vh;
-      background: radial-gradient(circle at top, #1b2838, #0f1720);
-      color: #e0e0e0;
-    }
+body {
+  height: 100vh;
+  background-color: #d4af37;
+  color: #e0e0e0;
+}
 
-    header {
-      height: 60px;
-      background: linear-gradient(to bottom, #2a3b4c, #1b2838);
-      display: flex;
-      align-items: center;
-      padding: 0 20px;
-      border-bottom: 1px solid #000;
-    }
+header {
+  height: 60px;
+  background-color: #1f2d3a;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #000;
+}
 
-    header h1 {
-      font-size: 20px;
-      letter-spacing: 1px;
-      color: #d4af37; /* золото как в Dota */
-    }
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #d4af37;
+}
+aside {
+  width: 260px;
+  background: #111922;
+  border-right: 1px solid #000;
+  overflow-y: auto;
+}
 
-    .container {
-      display: flex;
-      height: calc(100vh - 60px);
-    }
-
-    aside {
-      width: 260px;
-      background: #111922;
-      border-right: 1px solid #000;
-      overflow-y: auto;
-    }
-
-    aside h2 {
-      padding: 15px;
-      font-size: 14px;
-      text-transform: uppercase;
-      color: #9fbad0;
-      border-bottom: 1px solid #000;
-    }
+ h2 {
+  padding: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9fbad0;
+  border-bottom: 1px solid #000;
+}
