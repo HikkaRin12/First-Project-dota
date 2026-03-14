@@ -1,4 +1,60 @@
+main {
+  flex: 1;
+  padding: 30px;
+  background-color: rgb(15, 15, 49);
+}
 
+.content-box {
+  max-width: 600px;
+  background: rgba(16, 21, 26, 0.75);
+  padding: 25px;
+  border: 1px solid #000;
+}
+
+
+.content-box p {
+  line-height: 1.6;
+  color: #c0cbd4;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(15, 15, 49);
+  color: #e0e0e0;
+}
+
+header {
+  height: 60px;
+  background-color: #1f2d3a;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+h1{
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #d4af37;
+}
+aside {
+  width: 260px;
+  background: #111922;
+  border-right: 1px solid #000;
+  overflow-y: auto;
+}
+
+ h2 {
+  padding: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #9fbad0;
+  border-bottom: 1px solid #000;
+}
 
 .heroes-page{
   display: flex;
