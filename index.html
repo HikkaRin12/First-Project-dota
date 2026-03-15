@@ -2,28 +2,65 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dota 2 – Main Menu</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
     <link rel="stylesheet" href="/CSS/Dota2.css" />
-    <title>Dota 2–Main</title>
-    <meta name="description" content="Бесплатные уроки HTML и CSS для начинающих. Учим верстку сайтов с нуля.">
   </head>
-
-  <body>
-    
-    <header>
-      <h1>DOTA 2 — Main Menu</h1>
+  <body class="main-body">
+    <header class="animate__animated animate__fadeInDown">
+      <h1 class="logo-h1">Main</h1>
     </header>
     <main class="heroes-main">
-      <h2 class="heroed-title">Heroes</h2>
+      <h2 class="heroes-title animate__animated animate__fadeInLeft">
+        Choose Your Hero
+      </h2>
       <div class="heroes-grid">
-        <a href="/Html/Slark.html" class="hero-card">
-          <img src="/Image/Slark_icon.webp" alt="Slark" loading="lazy" class="hero-image" />
-          <span> Slark</span>
+        <a href="/Html/Juggernaut.html" class="hero-card hvr-float-shadow">
+          <img
+            src="/Image/jug-image/Juggernaut_icon.webp"
+            alt="Juggernaut"
+            class="hero-image"
+          />
+          <span>Juggernaut</span>
         </a>
-        <a href="/Html/Sniper.html" class="hero-card">
-          <img src="/Image/sniper-image/Sniper_icon.webp" alt="Sniper.icon" loading="lazy" class="hero-image" />
-          <span> Sniper</span>
+        <a href="/Html/Slark.html" class="hero-card hvr-float-shadow">
+          <img
+            src="/Image/slark-image/Slark_icon.webp"
+            alt="Slark"
+            class="hero-image"
+          />
+          <span>Slark</span>
+        </a>
+        <a href="/Html/Sniper.html" class="hero-card hvr-float-shadow">
+          <img
+            src="/Image/sniper-image/Sniper_icon.webp"
+            alt="Sniper"
+            class="hero-image"
+          />
+          <span>Sniper</span>
         </a>
       </div>
     </main>
+    <script>
+      function toggleMenu() {
+        document.getElementById("mobileNav").classList.toggle("active");
+      }
+      function toggleModal() {
+        document.getElementById("contactModal").classList.toggle("active");
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

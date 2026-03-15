@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <title>Dota 2 — Sniper Profile</title>
+    <title>Dota 2 — Juggernaut Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
@@ -14,18 +14,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/CSS/Sniper.css" />
+    <link rel="stylesheet" href="/CSS/Juggernaut.css" />
   </head>
   <body>
     <header class="header">
       <div class="animate__animated animate__zoomIn">
         <img
-          src="/Image/sniper-image/Sniper_icon.webp"
-          alt="Sniper"
+          src="/Image/jug-image/Juggernaut_icon.webp"
+          alt="Juggernaut"
           class="header-icon hvr-bob"
         />
-        <h1>Sniper</h1>
-        <p class="subtitle">Дальний бой - Carry - Убийца с дистанции</p>
+        <h1>Juggernaut</h1>
+        <p class="subtitle">Ближний бой - Carry - Боец</p>
         <a href="#about" class="button hvr-shutter-out-horizontal"
           >Узнать историю</a
         >
@@ -37,11 +37,12 @@
       <div
         class="content-card"
         data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom"
+        data-aos-anchor-placement=" top-up "
       >
         <p>
-          Sniper — мастер дальнего боя, способный уничтожать врагов с дальнего
-          расстояния,
+          Juggernaut — мастер меча, способный наносить мощные удары и
+          восстанавливать здоровье. Его уникальные способности делают его
+          опасным противником на поле боя.
         </p>
       </div>
     </section>
@@ -49,33 +50,42 @@
     <section class="section">
       <h2>Способности</h2>
       <div class="skills-grid">
-        <div class="skill-card hvr-float highlight" data-aos="flip-left">
+        <div class="skill-card hvr-float" data-aos="flip-down">
           <div class="skill-icon">
-            <img src="/Image/sniper-image/1skill.webp" alt="Shrapnel" />
+            <img src="/Image/jug-image/1skill.webp" alt="Blade Fury" />
           </div>
-          <h3>Shrapnel</h3>
-          <p>Заливает область замедляющим и наносящим урон дождем.</p>
+          <h3>Blade Fury</h3>
+          <p>
+            Способность, позволяющая Джаггернауту атаковать врагов с высокой
+            скоростью и наносить им урон.
+          </p>
         </div>
-        <div class="skill-card hvr-float highlight" data-aos="flip-left">
+
+        <div class="skill-card hvr-float" data-aos="flip-down">
           <div class="skill-icon">
-            <img src="/Image/sniper-image/2skill.webp" alt="Headshot" />
+            <img src="/Image/jug-image/2skill.webp" alt="Healing Ward" />
           </div>
-          <h3>Headshot</h3>
-          <p>Дает шанс нанести дополнительный урон и оттолкнуть цель.</p>
+          <h3>Healing Ward</h3>
+          <p>призывает тотем, которое восстанавливает здоровье союзников.</p>
         </div>
-        <div class="skill-card hvr-float highlight" data-aos="flip-left">
+
+        <div class="skill-card hvr-float" data-aos="flip-down">
           <div class="skill-icon">
-            <img src="/Image/sniper-image/3skill.webp" alt="Take Aim" />
+            <img src="/Image/jug-image/3skill.webp" alt="Blade Dance" />
           </div>
-          <h3>Take Aim</h3>
-          <p>Пассивно увеличивает дальность атаки героя.</p>
+          <h3>Blade Dance</h3>
+          <p>С шансом наносит критический урон по врагам.</p>
         </div>
-        <div class="skill-card hvr-float highlight" data-aos="flip-left">
+
+        <div class="skill-card hvr-float highlight" data-aos="flip-down">
           <div class="skill-icon">
-            <img src="/Image/sniper-image/ult.webp" alt="Assassinate" />
+            <img src="/Image/jug-image/ult.webp" alt="Omnislash" />
           </div>
-          <h3>Assassinate</h3>
-          <p>Мощный выстрел с огромной дистанции после подготовки.</p>
+          <h3>Omnislash</h3>
+          <p>
+            Способность позволяющая ему совершать серию быстрых прыжков и атак
+            по ближайшим врагам.
+          </p>
         </div>
       </div>
     </section>
@@ -107,7 +117,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 2500,
+        duration: 1500,
         once: false,
       });
     </script>
