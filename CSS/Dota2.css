@@ -112,7 +112,7 @@ h2 {
   .heroes-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .body {
+  .main-body {
     background-image: url("Image/background.jpg");
     background-size: cover;
   }
@@ -129,7 +129,7 @@ h2 {
   .heroes-grid {
     grid-template-columns: 1fr;
   }
-  .body {
+  .main-body {
     background-image: url("Image/background.jpg");
     background-size: cover;
   }
@@ -143,7 +143,7 @@ h2 {
   .heroes-main {
     padding: 20px;
   }
-  .body {
+  .main-body {
     background-image: url("Image/background.jpg");
     background-size: cover;
   }
